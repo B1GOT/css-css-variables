@@ -4,7 +4,6 @@
   margin: 0;
 }
 
-/* Start coding here */
 :root{
   --Branding-Color: #ff7f50;
   --Secondary-Color:cornsilk;
@@ -27,10 +26,12 @@
   --Double-Extra-Large:50px;
   --Triple-Extra-Large:100px;
 }
+
 .introduction{
   background-color: var(--Secondary-Color);
-padding: var(--padding-Level-5);
+  padding: var(--padding-Level-5);
 }
+
 h1{
   color: var(--Branding-Color);
   font-size: var(--Triple-Extra-Large);
