@@ -4,39 +4,35 @@
   margin: 0;
 }
 
-:root {
-  --branding: #ff7f50;
-  --secondary: cornsilk;
-  --highlight: #d2691e;
-  --muted: #a9a9a9;
-
-  --margin-1: 1px;
-  --margin-2: 5px;
-  --margin-3: 10px;
-  --margin-4: 15px;
-  --margin-5: 20px;
-
-  --padding-1: 1px;
-  --padding-2: 5px;
-  --padding-3: 10px;
-  --padding-4: 15px;
-  --padding-5: 20px;
-
-  --small: 12px;
-  --medium: 16px;
-  --large: 20px;
-  --Extra-Large: 30px;
-  --Double-Extra-Large: 50px;
-  --Triple-Extra-Large: 100px;
+:root{
+  --Branding-Color: #ff7f50;
+  --Secondary-Color:cornsilk;
+  --Highlight-Color:#d2691e;
+  --Muted-Color:#a9a9a9;
+  --padding-Level-1:1px;
+  --padding-Level-2:5px;
+  --padding-Level-3:10px;
+  --padding-Level-4:15px;
+  --padding-Level-5:20px;
+  --margin-Level-1:1px;
+  --margin-Level-2:5px;
+  --margin-Level-3:10px;
+  --margin-Level-4:15px;
+  --margin-Level-5:20px;
+  --Small:12px;
+  --Medium:16px;
+  --Large:20px;
+  --Extra-Large:30px;
+  --Double-Extra-Large:50px;
+  --Triple-Extra-Large:100px;
 }
 
-.introduction {
-  background-color: var(--secondary);
-  padding: var(--padding-5);
+.introduction{
+  background-color: var(--Secondary-Color);
+  padding: var(--padding-Level-5);
 }
 
-.introduction h1 {
-  color: var(--branding);
+h1{
+  color: var(--Branding-Color);
   font-size: var(--Triple-Extra-Large);
 }
-
